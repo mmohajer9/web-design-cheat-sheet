@@ -1,0 +1,73 @@
+html {
+  font-size: 100%;
+  font-family: Vazir;
+}
+
+body {
+  padding: 20rem;
+}
+
+.container {
+  perspective: 600px;
+  width: 200px;
+  height: 200px;
+}
+
+.cube {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  /* 
+        * transform-style : preserve-3d -> zamani estefade mishe ke mikhayn begin child hayi ke toye in element hastan ,
+        * besorat 3D estefade bshan , va transformi ke roye parent mizarim roye child ha aggregate nashe
+    */
+  transform-style: preserve-3d;
+}
+
+.cube__face {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  text-align: center;
+  display: table;
+}
+
+
+/** baraye inke vertically center konam **/
+
+.cube__face span {
+    display: inline-block;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.cube__face--front {
+  background: rgba(255, 0, 0, 0.6);
+  transform: rotateY(0deg) translateZ(100px);
+}
+.cube__face--back {
+  background: rgba(0, 255, 0, 0.6);
+  transform: rotateY(180deg) translateZ(100px);
+}
+.cube__face--right {
+  background: rgba(0, 0, 255, 0.6);
+  transform: rotateY(-90deg) translateZ(100px);
+}
+.cube__face--left {
+  background: rgba(255, 255, 0, 0.6);
+  transform: rotateY(-90deg) translateZ(100px);
+}
+.cube__face--top {
+  background: rgba(0, 255, 255, 0.6);
+  transform: rotateX(90deg) translateZ(100px);
+}
+.cube__face--bottom {
+  background: rgba(255, 0, 255, 0.6);
+  transform: rotateX(-90deg) translateZ(100px);
+}

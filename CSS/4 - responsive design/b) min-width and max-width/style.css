@@ -1,0 +1,11 @@
+.header {
+  margin: 0 auto;
+  font-size: 2rem;
+  background-color: cadetblue;
+  width: 80%;
+  min-width: fit-content;
+}
+
+.header h1 {
+  text-align: center;
+}

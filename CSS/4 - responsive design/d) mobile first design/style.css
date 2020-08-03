@@ -1,0 +1,102 @@
+html {
+  font-size: 100%;
+}
+
+.section {
+  background-color: cadetblue;
+  text-align: center;
+  padding: 2rem 0rem;
+  color: white;
+}
+
+header , .c1 {
+  margin-bottom: 1.2rem;
+}
+
+.content {
+  width: 66.66%;
+  display: inline-block;
+}
+
+
+@media (min-width: 768px) {
+  .content {
+    width: calc(66.66% - 1rem); 
+    margin-right: 1rem;
+  }
+}
+
+
+.content .box {
+  height: 200px;
+  background: #406d6e;
+  margin: .5rem;
+  float: left;
+  width: calc(100% - 1rem);
+}
+
+@media (min-width: 768px) {
+  .content .box {
+    width: calc(33.33% - 1rem);
+  }
+}
+
+.sidebar {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (min-width : 768px) {
+  .sidebar {
+    width: 33.33%;
+  }
+}
+
+.about {
+  float: right;
+
+  width: 100%;
+  margin-bottom: 1rem;
+
+}
+
+.contact {
+  float: left;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+@media (min-width : 768px) {
+  .about {
+    width: 33.33% ;
+  }
+  .contact {
+    width: calc(66.66% - 1rem);
+    margin-right: 1rem;
+  }
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+@media (min-width : 38rem) {
+  body {
+    background-color :yellow;
+  }
+}
+
+
+@media (min-width : 48rem ) {
+  body {
+    background-color :red;
+  }
+}

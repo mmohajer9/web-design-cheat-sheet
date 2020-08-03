@@ -1,0 +1,27 @@
+html {
+  font-size: 100%;
+}
+
+.parent {
+  width: 200px;
+  height: 200px;
+  margin: 19% auto;
+  /** default : 0 , fasele did ma nesbat be shekl , zavie did , hatman roye parent bezan **/
+  perspective: 300px;
+
+  /** tekie gahe did va zavie ma nesbat be shekle mored nazar **/
+  perspective-origin: center;
+  border: 2px solid black;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 0% auto;
+  transform: rotateY(20deg);
+  /* transform: perspective(10px) rotateY(20deg); */
+}
+
+/* .box:hover {
+  transform: scale(3) rotate(45deg);
+} */

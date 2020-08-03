@@ -1,0 +1,71 @@
+html {
+    font-size: 100%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .section {
+    background-color: cadetblue;
+    text-align: center;
+    padding: 2rem 0rem;
+    color: white;
+  }
+  
+  header , .c1 {
+    margin-bottom: 1.2rem;
+  }
+  
+  .box {
+    height: 200px;
+    background: #406d6e;
+  }
+  
+  .box .btn {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+  }
+  
+  .col-1 {
+    width: 16.66666666666667%;
+  }
+  
+  .col-2 {
+    width: 33.3333333333333%;
+  }
+  
+  .col-3 {
+    width: 50.00000000000001%;
+  }
+  
+  .col-4 {
+    width: 66.6666666666666% ;
+  }
+  
+  .col-5 {
+    width: 83.33333333333335%;
+  }
+  
+  .col-6 {
+    width: 100%;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6 {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
