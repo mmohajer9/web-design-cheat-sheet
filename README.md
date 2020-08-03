@@ -1,5 +1,7 @@
 # Complete Web Design Cheat Sheet
 
-**What was the problem ? here it is :**
+## **What Was The Problem ?**
 
-i am almost forgetting every thing i tried and learned after these years and i needed a way out of this skidrow ! so i decided to make a simple cheat sheet for myself i hope others can use it too. its just the samples that make me recall all of the lost memories :D
+I am almost forgetting every thing i tried and learned after these years and i needed a way out of this skidrow ! So i decided to make a simple cheat sheet for myself i hope others can use it too. Its just the samples that make me recall all of the lost memories :D
+
+**Credit : [Mohammad Mahdi Mohajer](https://github.com/mmohajer9)**
