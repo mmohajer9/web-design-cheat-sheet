@@ -1,0 +1,6 @@
+# About em And rem
+
+1. First notice that em and rem are **not excluded** by font-size and you can use them on padding , margin , height , width and etc ...
+2. It is better to use them for **font-size** and the best practice is to try not to use them for paddin , margin , etc ...
+
+For more info : [CSS - Values and Units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)

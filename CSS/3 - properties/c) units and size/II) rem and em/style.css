@@ -1,0 +1,44 @@
+/*
+
+*   em is relative to font size of parent element
+*   -> font-size parent : 20px  --> font-size child : 2em -> 20 * 2 = 40px
+
+*   nokte mohem ine ke age element parent font size nadasht , element child mire
+*   font size ro besorat recursive az element pedare parent fewlish bar midare va age
+*   on ham nadasht haminjori mire aghab ta be element root berese ke font sizesh sabete
+*   va age tag html ke node root hastesh ham font size set nashode bood mire az tanzimate
+*   default khode browser bar midare
+
+*/
+
+/*
+
+*   rem is relative to font size of root element 
+*   -> font-size root (html tag) : 16px  --> font-size child : 2em -> 16 * 2 = 32px
+
+*/
+
+
+.html {
+
+    /** yani inke bia az font-size default khode mororgar baraye kole html et estefade kon **/
+    /** ta toye har mororgari be andaze dorost khodesh neshon dade beshe va ghabel customize bashe **/
+    font-size: 100%;
+}
+
+.header {
+
+    /** 2 * parent-font-size(html) = 2 * 16 **/
+    font-size: 2em;
+}
+
+.title {
+    /** 2 * root-font-size(html) = 2 * 16 **/
+    font-size: 2rem;
+}
+
+.paragraph {
+
+    /** 2 * parent-font-size(div.header) = 2 * (2 * 16) **/
+    font-size: 2em;
+}
