@@ -1,0 +1,12 @@
+.header2 {
+    height: 400px;
+}
+
+.header2 img {
+    width: 50%;
+    height: 100%;
+    /** default -> object-fit: none; **/
+    object-fit: cover;
+    /** default -> object-position: unset; **/
+    object-fit: right;
+}

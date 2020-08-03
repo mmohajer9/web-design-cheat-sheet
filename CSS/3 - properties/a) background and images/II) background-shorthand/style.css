@@ -1,0 +1,9 @@
+.header2 {
+
+    border: 20px dotted red;
+    background: url(./image.jpg) 0 40% /cover no-repeat border-box content-box fixed red;
+    /*
+        * aslan mohem nist ja beja benvisi value haro faghat in 2 moredo posht ham be hamin sorat benvis :
+        * background-position / background-size --> e.g. : 0 40% / cover
+    */
+}

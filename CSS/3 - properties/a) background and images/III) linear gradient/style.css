@@ -1,0 +1,30 @@
+.header1 {
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(red , blue);
+}
+
+
+.header2 {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(red , blue , green , black , cyan);
+}
+
+.header3 {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to right , cyan , crimson);
+}
+
+.header4 {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(90deg , red , blue);
+}
+
+.header5 {
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(135deg , rgb(255, 0, 0) 20% , rgb(0, 0, 104) 45%);   
+}

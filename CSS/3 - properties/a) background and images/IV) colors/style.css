@@ -1,0 +1,28 @@
+.header1 {
+    background: #444444;
+}
+
+.header2 {
+    background: linear-gradient(to right , #1a1a , #1b1b1b);
+}
+
+
+.header3 {
+    background: rgb(1, 193, 251);
+}
+
+
+.header4 {
+    /** a -> last param -> opacity **/
+    background: rgba(51, 1, 251, 0.2); 
+}
+
+.header5 {
+    /** hsl() -> hue saturation lightness **/
+    background: hsl(30, 100%, 50%);
+}
+
+.header6 {
+    /** hsla() -> hue saturation lightness alpha**/
+    background: hsla(30, 100%, 50%, 0.2)
+}

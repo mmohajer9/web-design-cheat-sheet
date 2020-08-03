@@ -1,0 +1,23 @@
+.header2 {
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 500px;
+    background: url(./image.jpg) red fixed 0 40%/cover;
+    color: #ffffff;
+
+    /** Check This Out ! **/
+    filter: brightness(110%);
+
+    /** How To Combine 2 Filters **/
+    filter: contrast(110%) brightness(50%);
+
+}
+
+
+.header2:hover{
+    
+    /** Check This Out ! - usually on mdn docs **/
+    /** drop-shadow(shadow-size-direction  shadow-distance  spread  color) **/
+    filter: blur(2px) drop-shadow(10px 5px 11px red);
+}

@@ -1,0 +1,11 @@
+.header1 {
+    height: 600px;
+    width: 50%;
+    background: radial-gradient(circle at center ,red , blue);
+}
+
+.header2 {
+    height: 600px;
+    width: 50%;
+    background: radial-gradient(chocolate,  cyan , crimson);
+}

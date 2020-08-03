@@ -1,0 +1,186 @@
+.header1 {
+    /** kolan ye chizi : harchizi ro meghdare eshtebah bezari mire default ro set mikone **/
+
+    background-color: yellow;
+    background-image: url(pic.jpg);
+
+    background-size: 50% 50%; /** background-size: width  height; ,  background-size: width;   **/ 
+     /** age darsadi (%) bezari , nesbat be on content box ya jayi ke toshe darsadi az andaze ax ro migire**/
+
+    background-repeat: no-repeat; /** in property besorat default roye 'repeat' gharar dare **/
+
+}
+
+.header2-1 {
+    color: red;    
+    background-color: cyan;
+    background-image: url(image.jpg);
+
+    /** toye cover say mikone ke hadaksasr mohit ghabel namayesh dar tasvir ro toye area select shode ijad kone**/
+    /** Cover : Try to Fit The Image into the area**/
+    background-size: 100% 100%; 
+    background-position: 0 50%; /** set the position of the background image --> responsive uses **/
+
+    background-repeat: no-repeat;
+}
+
+
+.header2-2 {
+    color: red;
+    background-color: cyan;
+    background-image: url(image.jpg);
+
+    /** toye cover say mikone ke hadaksasr mohit ghabel namayesh dar tasvir ro toye area select shode ijad kone**/
+    /** Cover : Try to Fit The Image into the area**/
+    background-size: cover; 
+    background-position: 0 50%; /** set the position of the background image --> responsive uses **/
+
+    background-repeat: no-repeat;
+}
+
+
+.header3-1 {
+    color: white;
+    /** same as before **/
+    background-color: yellow;
+    border: 10px dashed red;
+    background-image: url(img.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    
+
+
+    /*  
+        * default : content-box -> yani width ke midi roye content ewmal mishe 
+        * va chon (100% content + border-size), az size safe mizane biron
+
+        * now : border-box -> width be majmoe (content+border) ewmal mishe
+    */
+    width: 100%;
+    box-sizing: content-box;
+
+}
+
+.header3-2 {
+    color: white;
+    /** same as before **/
+    background-color: yellow;
+    border: 10px dashed red;
+    background-image: url(img.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    
+
+
+    /*  
+        * default : content-box -> yani width ke midi roye content ewmal mishe 
+        * va chon (100% content + border-size), az size safe mizane biron
+
+        * now : border-box -> width be majmoe (content+border) ewmal mishe
+    */
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+
+.header4-1 {
+
+    color: white;
+    /** same as before **/
+    background-color: yellow;
+    border: 10px dashed red;
+    background-image: url(img.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+
+    /*  
+        * default : padding-box -> yani ye chizi biron padding gharar migire
+        * va chon background image ke dadim roye content hast ,
+        * onvaght background roye border mishe hamon background color ke zeshte
+
+        * now : content-box -> border roye kolie majmoe content miofte va ezafe tar nist
+    */
+    padding: 20px;
+    background-origin: content-box;
+}
+
+.header4-2 {
+
+    color: white;
+    /** same as before **/
+    background-color: yellow;
+    border: 10px dashed red;
+    background-image: url(img.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+
+    /*  
+        * default : padding-box -> yani ye chizi biron padding gharar migire
+        * va chon background image ke dadim roye content hast ,
+        * onvaght background roye border mishe hamon background color ke zeshte
+
+        * now : border-box -> border roye kolie majmoe content miofte va ezafe tar nist
+    */
+    padding: 20px;
+    background-origin: border-box;
+}
+
+
+.header5 {
+
+    /** same as before **/
+    background-color: yellow;
+    border: 10px dashed red;
+    background-image: url(pic.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+
+    /* from header 3 */
+    width: 100%;
+    box-sizing: border-box;
+
+    /* from header 4 */
+    padding: 20px;
+    background-origin: border-box;
+
+
+    /*  
+        * miad yejorayi be andaze ghesmati ke moshakhas mikonio negah midare
+        * va baghiasho mibore , mese crop kardan be nesbat model box
+    */    
+    background-clip: content-box;
+}
+
+
+.header6 {
+
+    /** same as before **/
+    background-color: yellow;
+    border: 10px dashed red;
+    background-image: url(pic.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+
+    /* from header 3 */
+    width: 100%;
+    box-sizing: border-box;
+    
+    /* from header 4 */
+    padding: 20px;
+    background-origin: border-box;
+
+
+    /* from header 5 */   
+    background-clip: content-box;
+
+    /** tasvir scroll nemikhore va hamonja fix mimone **/
+    background-attachment: fixed;
+}
