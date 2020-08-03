@@ -1,0 +1,148 @@
+html {
+  font-size: 100%;
+  font-family: "Vazir";
+  background: linear-gradient(to bottom, #00ffd5, #61daff);
+  height: 100%;
+}
+
+.contianer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form {
+  margin-top: 2rem;
+}
+
+.form .form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  margin-bottom: 1rem;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form label,
+.form input:not([type="checkbox"]) {
+  display: block;
+  margin-bottom: 0.7rem;
+}
+
+.form input.form-control {
+  width: 100%;
+  font-family: inherit;
+  padding: 0.6rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.form input.form-control::placeholder {
+  /* firefox - 51 - later */
+  color: red;
+  font-size: 1.2rem;
+}
+
+.form input.form-control::-moz-placeholder {
+  /* firefox 19 - 51 */
+  color: red;
+  font-size: 1.2rem;
+}
+
+.form input.form-control:-moz-placeholder {
+  /* firefox < 19 */
+  color: red;
+  font-size: 1.2rem;
+}
+
+.form input.form-control::-webkit-input-placeholder {
+  /* mozila safari chrome */
+  color: red;
+  font-size: 1.2rem;
+}
+
+.form input.form-control::-ms-input-placeholder {
+  /* internet explorer IE */
+  color: red;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.checkbox {
+  position: relative;
+  padding-right: 2.1rem;
+  padding-top: 0.4rem;
+}
+
+.checkbox .checkmark {
+  height: 25px;
+  width: 25px;
+  background-color: #eeeeee;
+  position: absolute;
+  right: 0;
+  border-radius: 5px;
+}
+
+.checkbox:hover .checkmark {
+  background-color: #c3c3c3;
+}
+
+.checkbox input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/** making check mark **/
+.checkmark::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  top: 5px;
+  right: 9px;
+
+  /** zekhamat border az 4 taraf **/
+  border-width: 0 3px 3px 0;
+
+  transform: rotate(45deg);
+  display: none;
+}
+
+.checkbox input:checked ~ .checkmark::after {
+  background-color: #2196f3;
+  display: block;
+}
+
+
+
+.form input:focus {
+  
+  background-color: #97e7ff;
+  outline: none;
+  border: 1px solid red !important;
+
+}
+
+.btn {
+  font-family: inherit;
+  border: none;
+  padding: .5rem 2rem;
+  border-radius: 5px;
+}
+
+
+.btn-danger {
+  background-color: #e74c3c;
+  border: 1px solid #e74c3c;
+  color: white;
+}
+
+.btn-success {
+  background-color: #16a085;
+  border: 1px solid #16a085;
+  color: white;
+}
