@@ -1,0 +1,8 @@
+.box-model {
+
+    box-sizing: content-box;
+    text-align: center;
+    background-color: cyan;
+}
+
+

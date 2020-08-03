@@ -1,0 +1,29 @@
+
+/*
+
+*   Short hand of padding , margin , border
+
+*    padding , margin : -top  -right  -bottom  -left ; // clockwise , e.g. : padding 10px 30px 9px 40px;
+
+*    padding , margin : top and bottom   left and right ; // e.g. : padding : 10px 20px;
+
+*    padding , margin : all-directions ; // e.g. : padding : 10px; --> left = right = top = bottom = 10px
+
+*    border : width style color ; // e.g. : 2px solid red
+
+*/
+
+
+.box-model {
+
+    box-sizing: content-box; /** width o height ro motenaseb ba content set mikone **/
+
+    text-align: center; /** content **/
+    width: 100px; /** content **/
+    height: 50px; /** content **/
+    background-color: cyan; /** content **/
+
+    padding: 25px; /** padding **/
+    border: 50px solid red; /** border **/
+    margin: 100px; /** margin **/   
+}
