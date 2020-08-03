@@ -1,0 +1,25 @@
+/* 
+* GUIDE:
+* selector:psudo-class  -> li p:hover { ... }   
+
+? selector = {.class , #id , elements , ...} , psudo-class = { :hover , :nth-child() , :active , ...}
+
+* it means : 
+* <li>  
+*   ...
+*    <p></p> : hover event
+*   ...
+* </liv>
+
+* it shows a state of some events for the selector part
+
+*/
+
+
+.item1 p:hover{
+    background-color: yellow;
+}
+
+.item2:hover p{
+    background-color: cyan;
+}

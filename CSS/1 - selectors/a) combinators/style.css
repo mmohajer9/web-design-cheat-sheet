@@ -1,0 +1,114 @@
+.class_yellow {
+  background-color: yellow;
+}
+
+.class_blue {
+  background-color: blue;
+  color: white;
+}
+
+/** only when we have combination of both classes together -> class = "class_blue class_yellow" **/
+/** if we do not set this combination , it will apply the class that comes last in the class attribute in html **/
+/** e.g.  in this case : class_blue will apply **/
+.class_yellow.class_blue {
+  background-color: green;
+}
+
+/* <header>
+      ...
+        <section>
+          ...
+            <div>
+              ...
+                <p> */
+header section div p {
+    font-weight: bold;
+}
+
+
+/* <header>
+      ...
+        <section>
+              ...
+                <p> */
+header section p {
+    font-weight: bold;
+}
+
+
+
+
+
+
+/** <p> farzand mostaqim <section> va hameye ona be noi farzand header bashan hala mostaqim ya gheir mostaqim**/
+
+/* 
+
+* <header>
+*    ...
+*      <section>
+*        <p></p> 
+
+*/
+
+/*! masalan inja <p> select nemishe :  !*/
+/*
+* <header>
+*    ...
+*      <section>
+*          <div>
+*            <p></p>
+*          </div>
+*      ...
+*/
+header section > p {
+  background-color: brown;
+}
+
+
+/* 
+*    <header>
+*      ...
+*        <section>
+*          ...
+*         <p></p>
+*         <span></span> ---> daqiqan element bad az <p> ro select mikone yani faghat span avali bad az <p>
+*         <span></span>  -> select nemishe
+*
+*        </section>
+*/
+
+header div p + span{
+  background-color: cyan;
+}
+
+
+
+
+
+
+
+/* 
+*    <header>
+*      ...
+*        <section>
+*          ...
+*         <p></p>
+*         <span></span>  -> select mishe 
+*          ...
+*         <span></span>  -> select mishe
+*           
+*           yani harchi span bad az <p> be onvan baradaresh hast select mishe
+*           vali dar + faghat avalin baradar select mishe 
+*        </section>
+*/
+
+header div p ~ span{
+  background-color: cyan;
+}
+
+
+/** it will select every element in the body element **/
+body * {
+  font-weight: bold;
+}

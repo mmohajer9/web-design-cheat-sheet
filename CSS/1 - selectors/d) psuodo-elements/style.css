@@ -1,0 +1,24 @@
+/* 
+* GUIDE:
+* selector::psudo-elements  -> li p::after { content : "" , ... } -> content makhsos psudo-element bayad hatman bashe   
+
+? selector = {.class , #id , elements , ...} , psudo-elements = { ::after , ::backdrop , ::before , ...}
+
+* it means : 
+* <li>  
+*   ...
+*    <p></p>
+*    <p::after>...</p::after> -> psudo-element that is created after p
+*   ...
+* </liv>
+*/
+
+
+.item3::before {
+    content: "before item 3 via psudo-elements";
+    background-color: yellow;
+}
+
+.item3::first-letter {
+    font-weight: bold;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - Selection via Combinators</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="class_yellow">This is class_yellow</div>
+    <div class="class_blue">This is class_blue</div>
+    <div class="class_yellow class_blue">
+      This is class_yellow and class_blue
+    </div>
+
+    <header>
+      <section>
+        <span>salam</span>
+        <p>header -> section -> div -> p</p>
+      </section>
+    </header>
+
+    <header>
+      <div>
+        <p>header -> div -> p</p>
+        <span>this is span</span>
+      </div>
+    </header>
+  </body>
+</html>

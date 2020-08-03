@@ -1,0 +1,29 @@
+/** select <a href></a> **/
+a[href] {
+    font-weight: bold;
+  }
+  
+  /** select <a href="http://example.com"></a> **/
+  a[href = "http://example.com"]
+  {
+      font-weight: normal;
+  }
+  
+  /** select <a href="...example...></a> -> mese regex hast**/
+  a[href *= "example"]
+  {
+      font-family: cursive;
+  }
+  
+  /** select <a href="...example></a>**/
+  a[href $= "example"]
+  {
+      font-family: cursive;
+  }
+  
+  
+  /** <li class="... class_blue ..."></li> **/
+  li[class ~="class_blue"]
+  {
+      color: green;
+  }
