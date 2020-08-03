@@ -1,0 +1,50 @@
+html {
+  font-family: "Vazir";
+  font-size: 100%;
+}
+
+body {
+  padding-top: 2rem;
+}
+
+p {
+  background-color: cadetblue;
+  padding: 2rem 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  margin: 0;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5rem 2rem;
+}
+
+/* vaghti float mizani , dg heighteshon tasiri roye element pedar nadare va height 0 e */
+
+section {
+  float: left;
+  width: 33%;
+}
+
+aside {
+  float: right;
+  width: 33%;
+}
+
+/* 
+    * Clear Fix Approach 
+*/
+
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}

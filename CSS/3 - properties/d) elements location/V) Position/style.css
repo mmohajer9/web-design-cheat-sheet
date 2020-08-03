@@ -1,0 +1,32 @@
+.box .btn {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+
+  /* 
+    *   mikhahim in  moraba ghermez biad bala samt chap gharar begire
+    *   az position estefade mikonim.
+  */
+
+  /* 
+    *   vaghti position ye elementio relative gharar midim behesh in mafhomo miresonim ke 
+    *   az noghte gharar girish dar hale hazer mitone be jahat haye mokhtalef top , bottom , left , right harkat kone.
+  */
+
+  /* 
+    *   vaghti position ye elementio absolute gharar midim behesh in mafhomo miresonim ke 
+    *   nesbat be avalin element pedaresh ke position relative dare ja beja bshe ba top , bottom , left , right
+    *   va age kolan relative nadashte bashe to pedarash enghad mire ta be body berese va sare body stop mikone
+    *   va nesbat be body ja be ja mishe va ono box model ja be ja shodanesh dar nazar migire.
+
+    *   nokte mohem ine ke vaghti absolute gharar midi , yejorie ke engar dg on element dar onja gharar nadare
+
+  */
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.box {
+  margin: 5rem;
+}

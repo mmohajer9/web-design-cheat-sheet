@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS - Layout</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div>header</div>
+    </header>
+    <section>
+      <div>Section</div>
+    </section>
+    <aside>
+      <div>aside</div>
+    </aside>
+    <footer>
+      <div>footer</div>
+    </footer>
+
+    <h1>change div to span</h1>
+    <header>
+      <span
+        >Look , the span display is inline , it can't get width or height</span
+      >
+    </header>
+    <section>
+      <span
+        >its size is as long as the content of the element look at beneath
+        :</span
+      >
+    </section>
+    <aside>
+      <span
+        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+        soluta laborum praesentium officia. Possimus rem nulla saepe quaerat non
+        dolores!</span
+      >
+    </aside>
+    <footer>
+      <span>but it can get padding and margin</span>
+    </footer>
+
+    <footer>
+      <div>
+        in span display is inline ; it means that this element can't get width
+        and height and it is wrapped around the size of content but it can get
+        padding and margin but there is a difference :
+        <span
+          >the margin will apply from left and right and the effect of these
+          properties on inline elements</span
+        >
+        , only push the adjacent elements to the sides , not up and down
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+html {
+  font-family: "Vazir";
+  font-size: 100%;
+}
+
+body {
+  padding-top: 2rem;
+}
+
+/* 
+  * the difference between span and div is display property
+*/
+
+/* 
+  * in span display is inline ; it means that this element can't get width and height 
+  * and it is wrapped around the size of content but it can get padding and margin but
+  * there is a difference : the margin will apply from left and right and the effect of
+  * these properties on inline elements , only push the adjacent elements to the sides ,
+  * not up and down
+*/
+
+/* 
+  * in div display is block it means that it can get width and height and it is shown in the new section
+  * and in the new line
+*/
+
+/* 
+  * what is inline-block ? -> it is the display that has the traits of inline but with a little difference !
+  * it can get width and height too ! and it can be pushed by padding and margin from top and bottom ! but ,
+  * they are aligned in a line one by one and it will not going to next line for the new elements with this display
+*/
+
+header span , section span , aside span  {
+  background-color: blueviolet;
+  padding: 1.2rem 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+div span {
+  padding: 1.2rem 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+div {
+  background-color: cadetblue;
+  padding: 1.2rem 2rem;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5rem 2rem;
+}
