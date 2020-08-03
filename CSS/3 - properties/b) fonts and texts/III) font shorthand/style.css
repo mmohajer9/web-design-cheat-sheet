@@ -1,0 +1,14 @@
+.item1 {
+    font : bold 72px Vazir;
+}
+
+
+
+.item2 {
+
+    /** toye shorthand hamvare bayad 2 ta meghdaro fix koni : 1 - font-size , 2 - font-family **/
+    /** hatman bayad in 2ta ro meghdar bedi vagarna kar nemikone **/
+
+    font : 300 italic 32px/2.8 /* line height : 1.8 */  Vazir;
+
+}

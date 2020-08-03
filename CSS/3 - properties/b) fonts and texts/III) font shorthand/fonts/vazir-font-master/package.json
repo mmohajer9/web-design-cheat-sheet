@@ -1,0 +1,20 @@
+{
+  "name": "vazir-font",
+  "version": "26.0.2",
+  "author": "Saber Rastikerdar <saber.rastikerdar@gmail.com>",
+  "license": "Public Domain",
+  "description": "A Persian (Farsi) Font - قلم (فونت) فارسی وزیر",
+  "keywords": ["font", "farsi", "persian"],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"visit http://rastikerdar.github.io/vazir-font/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rastikerdar/vazir-font"
+  },
+  "bugs": {
+    "url": "https://github.com/rastikerdar/vazir-font/issues"
+  },
+  "homepage": "https://github.com/rastikerdar/vazir-font#readme"
+}

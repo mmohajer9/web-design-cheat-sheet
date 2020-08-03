@@ -1,0 +1,52 @@
+.header {
+    /** text-shadow : (x-axis  y-axis   blur-radius  color) or (horizontal   vertical   blur-radius  color); **/
+    text-shadow:  10px 10px 10px rgba(255, 0, 64, 0.815);
+}
+
+
+.text1 {
+    text-shadow: 10px 10px 10px red;
+    text-decoration: underline;
+}
+
+.text2 {
+    text-decoration: underline wavy red;
+}
+
+.text3 {
+    text-decoration: overline wavy green;
+}
+
+.text4 {
+    text-align: center;
+}
+
+.text5 {
+    /** vaghti neveshte be tahe khat mirese toye safhe dg nemishkane bere khate badi , to hamon khat edame mide **/
+    white-space: nowrap;
+}
+
+
+/*? inaro namosan nafahmidam ! --> https://developer.mozilla.org/en-US/docs/Web/CSS/white-space */
+
+.text6 {
+    white-space: pre;
+}
+
+.text7 {
+    white-space: pre-line;
+}
+
+/** inaro fahmidam **/
+
+.text8 {
+    word-spacing: 35px; 
+}
+
+.text9 {
+    letter-spacing: 5px;
+}
+
+.text10 {
+    word-break: break-all;
+}

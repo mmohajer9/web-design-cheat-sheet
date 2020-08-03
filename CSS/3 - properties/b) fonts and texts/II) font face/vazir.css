@@ -1,0 +1,56 @@
+/* 
+
+*   to declare a custom font or non generic font , we should first declare it via @fontface
+
+*/
+
+@font-face {
+    font-family: "Vazir";
+
+    /** for IE to because it doesn't support mutli values for src **/
+    src: url(./fonts/vazir-font-master/dist/Vazir.eot) format("embedded-opentype"); 
+
+    src: url(./fonts/vazir-font-master/dist/Vazir.eot) format("embedded-opentype"),
+         url(./fonts/vazir-font-master/dist/Vazir.woff2) format("woff2"),
+         url(./fonts/vazir-font-master/dist/Vazir.woff) format("woff"),
+         url(./fonts/vazir-font-master/dist/Vazir.ttf) format("truetype");
+    /* 
+    *   shoma bayad format haye mokhtalefo alave bar woff2 load koni chon hame mororgara poshtibani konan
+    *   deqat kon ke tartib load shodan font ha be hamon tartibie ke to src dari url midi yani aval eot bad woff2 bad ...
+    */
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Vazir";
+
+    /** for IE to because it doesn't support mutli values for src **/
+    src: url(./fonts/vazir-font-master/dist/Vazir-Bold.eot) format("embedded-opentype"); 
+
+    src: url(./fonts/vazir-font-master/dist/Vazir-Bold.eot) format("embedded-opentype"),
+         url(./fonts/vazir-font-master/dist/Vazir-Bold.woff2) format("woff2"),
+         url(./fonts/vazir-font-master/dist/Vazir-Bold.woff) format("woff"),
+         url(./fonts/vazir-font-master/dist/Vazir-Bold.ttf) format("truetype");
+    /* 
+    *   shoma bayad format haye mokhtalefo alave bar woff2 load koni chon hame mororgara poshtibani konan
+    *   deqat kon ke tartib load shodan font ha be hamon tartibie ke to src dari url midi yani aval eot bad woff2 bad ...
+    */
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Vazir";
+
+    /** for IE to because it doesn't support mutli values for src **/
+    src: url(./fonts/vazir-font-master/dist/Vazir-Thin.eot) format("embedded-opentype"); 
+
+    src: url(./fonts/vazir-font-master/dist/Vazir-Thin.eot) format("embedded-opentype"),
+         url(./fonts/vazir-font-master/dist/Vazir-Thin.woff2) format("woff2"),
+         url(./fonts/vazir-font-master/dist/Vazir-Thin.woff) format("woff"),
+         url(./fonts/vazir-font-master/dist/Vazir-Thin.ttf) format("truetype");
+    /* 
+    *   shoma bayad format haye mokhtalefo alave bar woff2 load koni chon hame mororgara poshtibani konan
+    *   deqat kon ke tartib load shodan font ha be hamon tartibie ke to src dari url midi yani aval eot bad woff2 bad ...
+    */
+    font-weight: 100;
+}
